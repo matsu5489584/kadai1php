@@ -2,7 +2,7 @@
 
 $name = "matsushita";
 
-if ( $name == matsushita) {
+if ( $name === "matsushita") {
 echo "私は　あなたの名前です";
 } else {
 echo "あなたの名前ではありません";
@@ -13,7 +13,7 @@ echo "あなたの名前ではありません";
 
 $name="matsushita";
 
-if($name == tanaka) {
+if($name === "tanaka") {
   echo "私は　あなたの名前です";
   } else {
   echo "あなたの名前ではありません";
@@ -21,6 +21,7 @@ if($name == tanaka) {
 
 ?>
 <?php
+  $total = 0;
 for ($i = 0 ; $i <= 10000 ; $i++) {
   $total += $i;
 }
