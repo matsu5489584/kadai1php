@@ -65,13 +65,12 @@ function max_array($arr){
 $max_number = $arr[0];
 foreach($arr as $a){
 //どうしたらいいかわからない・・・・
-
- if($max < ＄a){
-    $max = ＄a;
+ if($max_namber < ＄a){
+    $max_namber = ＄a;
    }
   }
   return max_namber;
 }
-echo $max_arr;
+echo max(array(1, 3, 5, 7, 9));
 
 ?>
